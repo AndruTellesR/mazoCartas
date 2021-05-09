@@ -1,76 +1,44 @@
-<!DOCTYPE html> 
-<html lang ="es"> 
-
-<head> 
-	<meta charset="iso-8559-1"/> 
-	<meta name="description" content=""/> 
-	<meta name="keywords" content=""/> 
-	<title>Periodico 6B en HTML5</title> 
-	<link rel="stylesheet" type="text/css" href="hojaestilos.css"/>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/grillalogin.css">
 </head>
-<body> 
+<body>
+    
+    <header><h1>
+        SHOWDOWN
+    </h1></header>
 
-	<header> 
-		<h1>Periodico 6B</h1>
-	</header>
+    <div class="container">
+        
+        <div class="container__formulario">
 
-	<nav id="navbar"> 
-		<ul>
-			<li>inicio</li>
-			<li>salon</li>
-			<li>Colegio</li>
-			<li>Region</li>
-			<li>Tecnologia</li>
-			<li>Farandual</li>
-			<li>Deportes</li>
-			<li>Juegos</li>
-		</ul>
-	</nav>
+            <form class="container__formulario__form">
+                <div class="container__formulario__form__header">
+                    <h4>Inicio de Sesion</h4>
 
-	<figure>
-		<img src="https://image.freepik.com/vector-gratis/paisaje-natural-cascada-rocas_104785-103.jpg"/> 
-				
-	</figure>
+                </div>
+                <div class="container__formulario__form__input">
+                    <label for="usuario" class="container__formulario__form__input__span">Usuario</label>
+                    <input id="usuario" type="text" >
+                </div>
+                <div class="container__formulario__form__input">
+                    <label for="usuario" class="container__formulario__form__input__span">Usuario</label>
+                    <input id="contrasenia" type="password" >
+                </div>
+                <div class="container__formulario__form__btn">
+                    <button type="button" id="btnLogin"> Ingresar</button>
+                </div>
+            </form>
+        </div>
 
-	<aside>
-		<blockquote>Primer Elemento</blockquote>
-		<blockquote>Segundo Elemento</blockquote>
-		<blockquote>Tercer Elemento</blockquote>
-		<b>texto en negrita etiqueta b</b>
+    </div>
 
-	</aside>
-
-	<aside>
-		<blockquote>Primer Elemento</blockquote>
-		<blockquote>Segundo Elemento</blockquote>
-		<blockquote>Tercer Elemento</blockquote>
-		<b>texto en negrita etiqueta b</b>
-
-	</aside>
-
-	<section>
-		<article>
-			<header>
-				<hgroup>
-					<h2>Titulo de la noticia 1</h2>
-					<h3>Subtitulo de la noticia 1</h3>
-				</hgroup>
-			</header>
-			
-			<p>Hablamos de la noticia 1</p> 
-			
-			<footer>
-				<p>Comentarios de usuarios (1)</p>
-			</footer>
-
-		</article>
-
-		
-	</section>
-	<footer id="mainfooter">
-		<small>Derechos Reservados</small><
-		<address>Telefono:5 553221</address><
-	</footer>
+    <script src="js/login.js"></script>
 </body>
 </html>
